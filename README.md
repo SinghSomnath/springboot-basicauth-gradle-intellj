@@ -7,3 +7,7 @@
  1> Install gradle in your local machine
  2> Open command line and go to the project folder 
  3> stype ```gradle bootRun```
+ 
+ 
+ Note: Please import the https://github.com/SinghSomnath/springboot-basicauth-gradle-intellj/blob/main/postman_collection.json in your Postman app to **run** the sample  GET and POST(creating new employees) calls .
+ 
