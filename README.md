@@ -29,6 +29,7 @@ On How to configure the gitlab runner on AWS unix machine follow below links :
  -------------------------------------------------------------- 
 
 1>docker pull soms/som-docker-webapp
+After that clone this sprint boot app  code repo ( **git clone https://github.com/SinghSomnath/springboot-basicauth-gradle-intellj.git** ) and place it in the same folder from where you are running the below 2nd command .
 2>docker run -p 8080:8080 -it soms/som-docker-webapp bash
 3>cd /softwares/springboot-basicauth-gradle-intellj
 4>gradle bootRun
