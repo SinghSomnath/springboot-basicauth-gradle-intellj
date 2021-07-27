@@ -11,22 +11,28 @@
  
  Note: Please import the https://github.com/SinghSomnath/springboot-basicauth-gradle-intellj/blob/main/postman_collection.json in your Postman app to **run** the sample  GET and POST(creating new employees) calls .
  
- **Want to run in GIT LAB CI** -  browse here https://gitlab.com/SinghSomnath/springboot-basicauth-gradle-intellj
+ Want to run in GIT LAB CI - 
+ ------------------------------------
+ 
+ browse here https://gitlab.com/SinghSomnath/springboot-basicauth-gradle-intellj
  
  Git-lab CI uses my **AWS** vm as the the agent machine where **gitlabe runner** runs and makes it a slave machine connecting to the gitlab server .
  
-On How to configure the gitlab runner on AWS unix machine follow below links :
----------------------------------------------------------------------------------
+**On How to configure the gitlab runner on AWS unix machine follow below links :**
+
  
  https://www.youtube.com/watch?v=IyZOr_ubEaU&t=388s
  https://docs.gitlab.com/runner/install/linux-repository.html
  https://stackoverflow.com/questions/53370840/this-job-is-stuck-because-the-project-doesnt-have-any-runners-online-assigned
  
  
-**Want to run as docker image** is hosted here https://hub.docker.com/r/soms/som-docker-webapp
+Want to run as docker image
+-------------------------------
+
+is hosted here https://hub.docker.com/r/soms/som-docker-webapp
  
- To run the docker image execute below commands in any unix vm:
- -------------------------------------------------------------- 
+ **To run the docker image execute below commands in any unix vm:**
+ 
  
 >>>>>>>>>>Dockerfile location for the image is here  https://github.com/SinghSomnath/springboot-basicauth-gradle-intellj/blob/main/Dockerfile >>>>>>>>>>>>>>>>>>>>>>>
 
