@@ -1,7 +1,7 @@
 # springboot-basicauth-gradle-intellj
  sample sprint boot basic auth with intellj and gradle
  
- made with gradle version 6.5.1 .
+ made with gradle version 5.6.1
  
  To run the application :
  1> Install gradle in your local machine
