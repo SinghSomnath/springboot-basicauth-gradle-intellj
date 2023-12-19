@@ -18,7 +18,7 @@ public class EmployeeController
     @Autowired
     private EmployeeDAO employeeDao;
 
-    @CrossOrigin(origins = "*")
+    @CrossOrigin(origins = "http://localhost:4200")
     @GetMapping(path="/", produces = "application/json")
     public Employees getEmployees() 
     {

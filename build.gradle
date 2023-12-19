@@ -22,6 +22,8 @@ dependencies {
     implementation "io.springfox:springfox-swagger2:2.9.2"
     implementation "io.springfox:springfox-swagger-ui:2.9.2"
     implementation "com.google.guava:guava:28.0-jre"
+    implementation group: 'com.amazonaws', name: 'aws-java-sdk-dynamodb', version: '1.12.595'
+    compileOnly group: 'org.projectlombok', name: 'lombok', version: '1.18.30'
 }
 
 test {
