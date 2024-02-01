@@ -14,12 +14,13 @@ import javax.servlet.http.HttpServletResponse;
 
 
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
 import org.springframework.web.filter.OncePerRequestFilter;
 
 
 
 
-
+@Configuration
 public class CORSFilter extends OncePerRequestFilter {
 
 
